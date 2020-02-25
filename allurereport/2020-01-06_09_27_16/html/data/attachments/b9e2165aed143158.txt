@@ -1,0 +1,7 @@
+INFO     logger:test_requets.py:31 -------状态码断言------
+INFO     logger:test_requets.py:8 ----准备测试数据{'business': '2'}
+INFO     logger:test_requets.py:10 This is info message，获取接口地址http://auto-api.mobimedical.cn/payment/getpay
+INFO     logger:test_requets.py:12 ----开始接口测试
+INFO     logger:test_requets.py:17 ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'id': '82', 'name': '扫码支付', 'icon': 'http://auto-1253714281.cosgz.myqcloud.com/Upload/4dabdf63d737d3bf6e44a2b44b8bf715.png', 'pay_type': '19'}]}
+INFO     logger:test_requets.py:20 response:expect-
+INFO     logger:test_requets.py:33 -------测试完成------

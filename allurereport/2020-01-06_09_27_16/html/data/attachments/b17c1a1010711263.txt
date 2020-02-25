@@ -1,0 +1,7 @@
+INFO     logger:test_requets.py:31 -------状态码断言------
+INFO     logger:test_requets.py:8 ----准备测试数据{'cardId': '1904236007', 'cardType': '6'}
+INFO     logger:test_requets.py:10 This is info message，获取接口地址http://auto-api.mobimedical.cn/card/patient
+INFO     logger:test_requets.py:12 ----开始接口测试
+INFO     logger:test_requets.py:17 ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': {'cardId': '1904236007', 'IDCard': '511622198602117328', 'UserIdKey': '', 'cardName': '陈凤', 'phone': '', 'balance': '0.00', 'age': '', 'sex': ''}}
+INFO     logger:test_requets.py:20 response:expect-陈凤
+INFO     logger:test_requets.py:33 -------测试完成------

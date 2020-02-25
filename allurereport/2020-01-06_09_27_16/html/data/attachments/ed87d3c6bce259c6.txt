@@ -1,0 +1,7 @@
+INFO     logger:test_requets.py:31 -------状态码断言------
+INFO     logger:test_requets.py:8 ----准备测试数据{'deptId': 'deptId'}
+INFO     logger:test_requets.py:10 This is info message，获取接口地址http://auto-api.mobimedical.cn/registration/dept
+INFO     logger:test_requets.py:12 ----开始接口测试
+INFO     logger:test_requets.py:17 ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'deptId': '111', 'name': '门诊儿科'}, {'deptId': '147', 'name': '门诊口腔科'}, {'deptId': '149', 'name': '门诊五官科'}, {'deptId': '230', 'name': '门诊中医科（二）'}, {'deptId': '150', 'name': '心理咨询室'}, {'deptId': '151', 'name': '急诊室'}, {'deptId': '186', 'name': '产后康复'}, {'deptId': '112', 'name': '门诊中医科'}, {'deptId': '222', 'name': '门诊中医妇科'}, {'deptId': '116', 'name': '门诊妇科'}, {'deptId': '117', 'name': '门诊产科'}, {'deptId': '138', 'name': '门诊儿保科'}, {'deptId': '140', 'name': '门诊皮肤科'}, {'deptId': '141', 'name': '门诊内科'}, {'deptId': '142', 'name': '门诊外科'}, {'deptId': '206', 'name': '门诊中医儿科'}, {'deptId': '213', 'name': '门诊介入&血管瘤'}]}
+INFO     logger:test_requets.py:20 response:expect-deptId
+INFO     logger:test_requets.py:33 -------测试完成------

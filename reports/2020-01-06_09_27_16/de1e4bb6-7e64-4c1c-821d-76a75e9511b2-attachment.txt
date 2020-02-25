@@ -1,0 +1,1 @@
+[{'id': '82', 'name': '扫码支付', 'icon': 'http://auto-1253714281.cosgz.myqcloud.com/Upload/4dabdf63d737d3bf6e44a2b44b8bf715.png', 'pay_type': '19'}]
