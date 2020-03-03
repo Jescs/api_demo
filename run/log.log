@@ -1,42 +1,45 @@
-2020-01-06 09:27:17,011 logger INFO -------状态码断言------ 
-2020-01-06 09:27:17,011 logger INFO ----准备测试数据{'cardId': '1904236007', 'cardType': '6'} 
-2020-01-06 09:27:17,011 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/card/patient 
-2020-01-06 09:27:17,011 logger INFO ----开始接口测试 
-2020-01-06 09:27:17,416 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': {'cardId': '1904236007', 'IDCard': '511622198602117328', 'UserIdKey': '', 'cardName': '陈凤', 'phone': '', 'balance': '0.00', 'age': '', 'sex': ''}} 
-2020-01-06 09:27:17,417 logger INFO response:expect-陈凤 
-2020-01-06 09:27:17,417 logger INFO -------测试完成------ 
-2020-01-06 09:27:17,438 logger INFO -------状态码断言------ 
-2020-01-06 09:27:17,439 logger INFO ----准备测试数据{'deptId': 'deptId'} 
-2020-01-06 09:27:17,439 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/registration/dept 
-2020-01-06 09:27:17,439 logger INFO ----开始接口测试 
-2020-01-06 09:27:17,870 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'deptId': '111', 'name': '门诊儿科'}, {'deptId': '147', 'name': '门诊口腔科'}, {'deptId': '149', 'name': '门诊五官科'}, {'deptId': '230', 'name': '门诊中医科（二）'}, {'deptId': '150', 'name': '心理咨询室'}, {'deptId': '151', 'name': '急诊室'}, {'deptId': '186', 'name': '产后康复'}, {'deptId': '112', 'name': '门诊中医科'}, {'deptId': '222', 'name': '门诊中医妇科'}, {'deptId': '116', 'name': '门诊妇科'}, {'deptId': '117', 'name': '门诊产科'}, {'deptId': '138', 'name': '门诊儿保科'}, {'deptId': '140', 'name': '门诊皮肤科'}, {'deptId': '141', 'name': '门诊内科'}, {'deptId': '142', 'name': '门诊外科'}, {'deptId': '206', 'name': '门诊中医儿科'}, {'deptId': '213', 'name': '门诊介入&血管瘤'}]} 
-2020-01-06 09:27:17,870 logger INFO response:expect-deptId 
-2020-01-06 09:27:17,870 logger INFO -------测试完成------ 
-2020-01-06 09:27:17,878 logger INFO -------状态码断言------ 
-2020-01-06 09:27:17,879 logger INFO ----准备测试数据{'deptId': '111', 'date': 'date'} 
-2020-01-06 09:27:17,879 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/Registration/date 
-2020-01-06 09:27:17,879 logger INFO ----开始接口测试 
-2020-01-06 09:27:18,300 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'date': '2020-01-06', 'period': ['am', 'pm']}, {'date': '2020-01-07', 'period': ['am', 'pm']}, {'date': '2020-01-08', 'period': ['am', 'pm']}, {'date': '2020-01-09', 'period': ['am', 'pm']}, {'date': '2020-01-10', 'period': ['am', 'pm']}, {'date': '2020-01-11', 'period': ['am', 'pm']}, {'date': '2020-01-12', 'period': ['am', 'pm']}]} 
-2020-01-06 09:27:18,300 logger INFO response:expect-date 
-2020-01-06 09:27:18,301 logger INFO -------测试完成------ 
-2020-01-06 09:27:18,320 logger INFO -------状态码断言------ 
-2020-01-06 09:27:18,320 logger INFO ----准备测试数据{'business': '2'} 
-2020-01-06 09:27:18,321 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/payment/getpay 
-2020-01-06 09:27:18,321 logger INFO ----开始接口测试 
-2020-01-06 09:27:18,470 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'id': '82', 'name': '扫码支付', 'icon': 'http://auto-1253714281.cosgz.myqcloud.com/Upload/4dabdf63d737d3bf6e44a2b44b8bf715.png', 'pay_type': '19'}]} 
-2020-01-06 09:27:18,470 logger INFO response:expect- 
-2020-01-06 09:27:18,471 logger INFO -------测试完成------ 
-2020-01-06 09:27:18,492 logger INFO -------状态码断言------ 
-2020-01-06 09:27:18,493 logger INFO ----准备测试数据{'deptId': '111', 'date': '2020-01-06', 'period': 'am'} 
-2020-01-06 09:27:18,493 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/registration/schedule 
-2020-01-06 09:27:18,493 logger INFO ----开始接口测试 
-2020-01-06 09:27:19,159 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'equipDoctor': 0, 'scheduleCode': '2020/1/6|111|5|26|1', 'regType': 0, 'scheduleId': '1304528', 'scheduleDate': '2020-01-06', 'weekDay': '星期一', 'doctorId': '26', 'period': 'am', 'num': '2', 'image': 'http://his.mobimedical.cn/uploads/b/MbTXQN2k/b/8/8/7/5bfbc53df3101.jpg', 'doctorName': '代永清', 'title': '门诊儿科', 'fee': '11', 'beGoodAt': '儿科常见病多发病的诊治。', 'description': '<p>\r\n\t从事儿科临床工作38年，2004年被金堂县卫生局评为金堂名医，2009年获得儿科副主任医师任职资格。承担儿科临床工作及儿内科，新生儿危重抢救诊治工作，擅长儿科常见病多发病的诊治，如：小儿支气管炎，肺炎，哮喘等呼吸系统疾病及小儿腹泻等消化系统疾病诊治，多篇专业论文在国家级省级医学杂志发表，希望通过努力为孩子们健康平安保驾护航。\r\n</p>', 'profession': '副主任医师'}, {'equipDoctor': 0, 'scheduleCode': '2020/1/6|111|7|68|1', 'regType': 0, 'scheduleId': '1304530', 'scheduleDate': '2020-01-06', 'weekDay': '星期一', 'doctorId': '68', 'period': 'am', 'num': '20', 'image': 'http://his.mobimedical.cn/uploads/b/MbTXQN2k/d/f/6/4/5bfbc4f0d933d.jpg', 'doctorName': '肖会琼', 'title': '门诊儿科', 'fee': '9', 'beGoodAt': '儿科常见病、多发病的诊治，如小儿支气管炎哮喘等呼吸道系统疾病等', 'description': '<p>\r\n\t从事儿科临床工作40余年，擅长儿科常见病、多发病的诊治，如小儿支气管炎哮喘等呼吸道系统疾病等。\r\n</p>', 'profession': '主治医师'}]} 
-2020-01-06 09:27:19,159 logger INFO response:expect- 
-2020-01-06 09:27:19,159 logger INFO -------测试完成------ 
-2020-01-06 09:27:19,171 logger INFO -------状态码断言------ 
-2020-01-06 09:27:19,171 logger INFO ----准备测试数据{'scheduleId': '1304528'} 
-2020-01-06 09:27:19,171 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/Registration/time 
-2020-01-06 09:27:19,172 logger INFO ----开始接口测试 
-2020-01-06 09:27:19,476 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': ''} 
-2020-01-06 09:27:19,476 logger INFO response:expect- 
-2020-01-06 09:27:19,477 logger INFO -------测试完成------ 
+2020-03-03 11:10:03,721 logger INFO -------状态码断言------ 
+2020-03-03 11:10:03,721 logger INFO ----准备测试数据{'cardId': '1904236007', 'cardType': '6'} 
+2020-03-03 11:10:03,721 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/card/patient 
+2020-03-03 11:10:03,721 logger INFO ----开始接口测试 
+2020-03-03 11:10:04,210 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': {'cardId': '1904236007', 'IDCard': '511622198602117328', 'UserIdKey': '', 'cardName': '陈凤', 'phone': '', 'balance': '0.00', 'age': '', 'sex': ''}} 
+2020-03-03 11:10:04,210 logger INFO response:expect-陈凤 
+2020-03-03 11:10:04,211 logger INFO -------测试完成------ 
+2020-03-03 11:10:04,230 logger INFO -------状态码断言------ 
+2020-03-03 11:10:04,231 logger INFO ----准备测试数据{} 
+2020-03-03 11:10:04,231 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/registration/dept 
+2020-03-03 11:10:04,231 logger INFO ----开始接口测试 
+2020-03-03 11:10:04,456 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'deptId': '111', 'name': '门诊儿科'}, {'deptId': '147', 'name': '门诊口腔科'}, {'deptId': '149', 'name': '门诊五官科'}, {'deptId': '150', 'name': '心理咨询室'}, {'deptId': '230', 'name': '门诊中医科（二）'}, {'deptId': '151', 'name': '急诊室'}, {'deptId': '186', 'name': '产后康复'}, {'deptId': '112', 'name': '门诊中医科'}, {'deptId': '222', 'name': '门诊中医妇科'}, {'deptId': '206', 'name': '门诊中医儿科'}, {'deptId': '116', 'name': '门诊妇科'}, {'deptId': '117', 'name': '门诊产科'}, {'deptId': '138', 'name': '门诊儿保科'}, {'deptId': '140', 'name': '门诊皮肤科'}, {'deptId': '141', 'name': '门诊内科'}, {'deptId': '142', 'name': '门诊外科'}, {'deptId': '213', 'name': '门诊介入&血管瘤'}]} 
+2020-03-03 11:10:04,457 logger INFO response:expect-deptId 
+2020-03-03 11:10:04,457 logger INFO -------测试完成------ 
+2020-03-03 11:10:04,473 logger INFO -------状态码断言------ 
+2020-03-03 11:10:04,474 logger INFO ----准备测试数据{'deptId': '111'} 
+2020-03-03 11:10:04,474 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/Registration/date 
+2020-03-03 11:10:04,474 logger INFO ----开始接口测试 
+2020-03-03 11:10:04,704 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'date': '2020-03-03', 'period': ['am', 'pm']}, {'date': '2020-03-04', 'period': ['am', 'pm']}, {'date': '2020-03-05', 'period': ['am', 'pm']}, {'date': '2020-03-06', 'period': ['am', 'pm']}, {'date': '2020-03-07', 'period': ['am', 'pm']}, {'date': '2020-03-08', 'period': ['am', 'pm']}]} 
+2020-03-03 11:10:04,704 logger INFO response:expect-date 
+2020-03-03 11:10:04,705 logger INFO -------测试完成------ 
+2020-03-03 11:10:04,710 logger INFO -------状态码断言------ 
+2020-03-03 11:10:04,710 logger INFO ----准备测试数据{'business': '2'} 
+2020-03-03 11:10:04,710 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/payment/getpay 
+2020-03-03 11:10:04,710 logger INFO ----开始接口测试 
+2020-03-03 11:10:04,857 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'id': '82', 'name': '扫码支付', 'icon': 'http://auto-1253714281.cosgz.myqcloud.com/Upload/4dabdf63d737d3bf6e44a2b44b8bf715.png', 'pay_type': '19'}]} 
+2020-03-03 11:10:04,857 logger INFO response:expect- 
+2020-03-03 11:10:04,857 logger INFO -------测试完成------ 
+2020-03-03 11:10:04,862 logger INFO -------状态码断言------ 
+2020-03-03 11:10:04,862 logger INFO ----准备测试数据{} 
+2020-03-03 11:10:04,862 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/registration/schedule 
+2020-03-03 11:10:04,862 logger INFO ----开始接口测试 
+2020-03-03 11:10:05,000 logger INFO ----接口请求完成response{'code': 90010, 'msg': '缺少参数 \tdeptId'} 
+2020-03-03 11:10:05,120 logger INFO -------状态码断言------ 
+2020-03-03 11:10:05,120 logger INFO ----准备测试数据{'scheduleId': '1304528'} 
+2020-03-03 11:10:05,120 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn/Registration/time 
+2020-03-03 11:10:05,120 logger INFO ----开始接口测试 
+2020-03-03 11:10:05,281 logger INFO ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': ''} 
+2020-03-03 11:10:05,282 logger INFO response:expect- 
+2020-03-03 11:10:05,282 logger INFO -------测试完成------ 
+2020-03-03 11:10:05,303 logger INFO -------状态码断言------ 
+2020-03-03 11:10:05,304 logger INFO ----准备测试数据{} 
+2020-03-03 11:10:05,304 logger INFO This is info message，获取接口地址http://auto-api.mobimedical.cn 
+2020-03-03 11:10:05,305 logger INFO ----开始接口测试 
+2020-03-03 11:10:05,427 logger INFO ----接口请求完成response{'code': 404, 'msg': 'Error 404 Not Found'} 

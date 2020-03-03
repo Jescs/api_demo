@@ -3,8 +3,8 @@ import os
 from case.apidata import ApiData
 import time
 
-api = ApiData()
-api.get_data_01()
+# api = ApiData()
+# api.get_data_01()
 
 file_path = os.path.abspath(os.path.dirname(__file__))
 root_path = os.path.dirname(file_path)

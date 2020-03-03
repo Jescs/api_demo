@@ -1,7 +1,0 @@
-INFO     logger:test_requets.py:31 -------状态码断言------
-INFO     logger:test_requets.py:8 ----准备测试数据{'deptId': '111', 'date': '2020-01-06', 'period': 'am'}
-INFO     logger:test_requets.py:10 This is info message，获取接口地址http://auto-api.mobimedical.cn/registration/schedule
-INFO     logger:test_requets.py:12 ----开始接口测试
-INFO     logger:test_requets.py:17 ----接口请求完成response{'code': 10000, 'msg': 'ok', 'data': [{'equipDoctor': 0, 'scheduleCode': '2020/1/6|111|5|26|1', 'regType': 0, 'scheduleId': '1304528', 'scheduleDate': '2020-01-06', 'weekDay': '星期一', 'doctorId': '26', 'period': 'am', 'num': '2', 'image': 'http://his.mobimedical.cn/uploads/b/MbTXQN2k/b/8/8/7/5bfbc53df3101.jpg', 'doctorName': '代永清', 'title': '门诊儿科', 'fee': '11', 'beGoodAt': '儿科常见病多发病的诊治。', 'description': '<p>\r\n\t从事儿科临床工作38年，2004年被金堂县卫生局评为金堂名医，2009年获得儿科副主任医师任职资格。承担儿科临床工作及儿内科，新生儿危重抢救诊治工作，擅长儿科常见病多发病的诊治，如：小儿支气管炎，肺炎，哮喘等呼吸系统疾病及小儿腹泻等消化系统疾病诊治，多篇专业论文在国家级省级医学杂志发表，希望通过努力为孩子们健康平安保驾护航。\r\n</p>', 'profession': '副主任医师'}, {'equipDoctor': 0, 'scheduleCode': '2020/1/6|111|7|68|1', 'regType': 0, 'scheduleId': '1304530', 'scheduleDate': '2020-01-06', 'weekDay': '星期一', 'doctorId': '68', 'period': 'am', 'num': '20', 'image': 'http://his.mobimedical.cn/uploads/b/MbTXQN2k/d/f/6/4/5bfbc4f0d933d.jpg', 'doctorName': '肖会琼', 'title': '门诊儿科', 'fee': '9', 'beGoodAt': '儿科常见病、多发病的诊治，如小儿支气管炎哮喘等呼吸道系统疾病等', 'description': '<p>\r\n\t从事儿科临床工作40余年，擅长儿科常见病、多发病的诊治，如小儿支气管炎哮喘等呼吸道系统疾病等。\r\n</p>', 'profession': '主治医师'}]}
-INFO     logger:test_requets.py:20 response:expect-
-INFO     logger:test_requets.py:33 -------测试完成------

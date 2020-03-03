@@ -63,7 +63,7 @@ class ReadExcel():
         for i in range(rows):
             keys = []
             values = []
-            for i in range(2, 14):
+            for i in range(2, 10):
                 if i % 2 == 0:
                     key = self.sheet.cell_value(rows - 1, i)
                     keys.append(key)

@@ -15,7 +15,7 @@ class ApiData():
         data_path = root_path + '\\data'
         self.data_file = data_path + '\\data.yaml'
 
-    def wirte_yaml(self, row, key,*dict_data):
+    def wirte_yaml(self, row, key, *dict_data):
         data = self.excel.get_param(row)
         print('----获取科室排班-----')
         url = 'http://auto-api.mobimedical.cn' + data[1]
@@ -34,11 +34,9 @@ class ApiData():
                 except Exception as msg:
                     print(msg)
 
-
-
     def get_data_01(self):
         data = self.excel.get_param(3)
-        self.wirte_yaml(3, ['deptId'],data[2])
+        self.wirte_yaml(3, ['deptId'], data[2])
         time.sleep(2)
         self.wirte_yaml(5, ['deptId', 'date', 'period'])
 

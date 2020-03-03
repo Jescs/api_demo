@@ -12,7 +12,7 @@ data = {'name': '测试',
 #     yaml_obj = yaml.dump(data, f,allow_unicode=True,sort_keys=False)
 
 f = open(yamlpath,'r',encoding='utf-8')
-# with open(yamlpath,'r',encoding='utf-8') as f:
-#     f_data = f.read()
-#     yaml_data = yaml.load(f_data,Loader=yaml.FullLoader)
-#     print(yaml_data)
+with open(yamlpath,'r',encoding='utf-8') as f:
+    f_data = f.read()
+    yaml_data = yaml.load(f_data,Loader=yaml.FullLoader)
+    print(yaml_data)

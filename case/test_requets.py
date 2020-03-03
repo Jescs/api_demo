@@ -6,7 +6,7 @@ from common.logger import *
 
 def get_request(data):
     logger.info('----准备测试数据{}'.format(data[2]))
-    url = 'http://auto-api.mobimedical.cn' + data[1]
+
     logger.info('This is info message，获取接口地址{}'.format(url))
     headers = {'number': 'P2320190329'}
     logger.info('----开始接口测试')
@@ -28,6 +28,7 @@ def get_request(data):
 
 @allure.feature('测试http请求')
 def test_get_request(is_data):
+    allure.dynamic.title(is_data[0])
     logger.info('-------状态码断言------')
     assert get_request(is_data) == 200
     logger.info('-------测试完成------')
